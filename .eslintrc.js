@@ -4,7 +4,7 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     // Includes .prettierrc.js rules
-    'prettier/prettier': ['error', {}, { usePrettierrc: true }],
+    'prettier/prettier': 'error',
     // This rule is not compatible with Next.js's <Link /> components
     'jsx-a11y/anchor-is-valid': 'off',
     // No unused variables
