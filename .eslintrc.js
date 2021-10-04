@@ -1,9 +1,10 @@
 module.exports = {
   root: true,
+  plugins: ['@typescript-eslint'],
   extends: [
-    'react-app',
-    'plugin:@next/next/recommended',
     'plugin:prettier/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'next/core-web-vitals',
   ],
   rules: {
     // This rule is not compatible with Next.js's <Link /> components
